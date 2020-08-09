@@ -1,0 +1,102 @@
+[
+	{
+		"model": "wired_app.article",
+		"pk": 1,
+		"fields": {
+			"title": "New Internet Protocol Sees Light",
+			"slug": "new_internet_protocol",
+			"headline": "The Internet Society has released a new version of Internet Protocol",
+			"body": "The Internet Society has released a new version of Internet Protocol, the low-level blueprint that the entire Net is built on. But it may be a some time before cyberspace gets bigger and faster as a result.<br>After four years of work, the Internet Engineering Task Force on Thursday published the draft standard for IP version 6 (or IPv6), also known as IP Next Generation. But now comes the hard part: encouraging vendors to build and sell gear that supports it.<br><br>\"It's a chicken-and-egg problem,\" said Bob Hinden, chairman of the working group that wrote the specification.<br><br>Among other improvements, the landmark specification will allow those who build and plumb the Internet to use longer addresses when mapping out virtual real estate.<br><br>But since no one yet has a new, longer, IPv6 address, no one needs an IPv6 router, operating system, or browser. Since no vendors have fully functioning IPv6 products, no one could possibly want an IPv6 address.<br><br>Now, the Internet Engineering Task Force is urging all parties to support the next-generation protocol, so that it can fix the problems it was built to address.<br><br>The specification for IPv6 was made public for download Thursday. The Internet Engineering Standards Group approved the document as a draft standard on 10 August, but a procedural holdup delayed the public release.<br><br>This new version solves many of the problems inherent in IPv4, going far beyond the original mandate to add digits to the IP-addressing system.<br><br>Four years ago, the Internet Engineering Task Force established at a Toronto conference that IPv4, the current protocol for identifying individual computers on the Internet, had a fatal flaw.<br><br>IPv4 allows addresses that consist of up to 12 digits. This means there are less than 4 billion possible IP addresses.<br><br>Not all of those addresses can be used. When an organization establishes a connection on the Internet, it is assigned a certain number of nodes, or servers. The organization has to estimate how many nodes it will need.<br><br>Since companies need to overestimate to account for growth, not all addresses are in use at any given time.<br><br>\"IPv4 was designed to link a small number of research networks,\" said Chris Harding, development manager for the open group in Reading, England, and a member of the working group. \"Just doing this was a major achievement [at the time]. In designing a new version it was necessary to make it usable under modern conditions.\"<br><br>The designers of the specification also had to worry about the current group of commercial users, Harding said.<br><br>As Internet growth quickly ate away at the pool of possible addresses, the IETF Next Generation IP Working Group has spent the last four years writing a new protocol.<br><br>IPv6 will fix not only the addressing problem, but a number of other flaws inherent in the earlier version, said Thomas Narten, area director for the task force and a senior software engineer in IBM's network-computing software division.<br><br>The new version is better suited for 64-bit processing used by today's high-end workstation server computers and also includes a stronger encryption sequence, Narten said.<br><br>IPv6 also automates the process of identifying each machine on a network, a task that the current version forces administrators to do manually. IPv6 supporting computers will be automatically assigned an address when they are plugged into a network.<br><br>The IETF must now start on the long process of getting vendors and users to upgrade their applications and equipment. It has established a working group for overseeing that transition.<br><br>\"Within the first couple of months of 1999, the [Internet Assigned Number Authority] will be able to assign IPv6 addresses, and it will then be possible for providers to acquire those addresses,\" Hinden said.<br><br>Until then, the spec will allow older, non-IPv6 compliant routers and machines to transport a packet of data from an IPv6 address. Known as tunneling, this feature of the spec simply puts a IPv4 header on an IPv6 packet.",
+			"category": "Technology",
+			"publication_date": "2019-08-09",
+			"author": 1,
+			"created": "2019-08-09T01:06:51.045Z",
+			"updated": "2019-08-09T01:06:51.045Z"
+		}
+	},
+	{
+		"model": "wired_app.article",
+		"pk": 2,
+		"fields": {
+			"title": "Payroll Data Kick-Starts Rally",
+			"slug": "payroll_data",
+			"headline": "Wall Street rebounds after tanking from signs of global economic uncertainty",
+			"body": "Overseas turmoil? What overseas turmoil?<br>Just one day after Wall Street tanked amid resurgent signs of global economic uncertainty, the market rebounded Friday following word from Washington that payrolls are up and unemployment is down. Investors, displaying a profound case of attention-deficit disorder, embraced the indicators of US economic vitality and snapped up most of the shares they'd dumped only hours earlier.<br><br>Tech stocks led the way back to positive territory, and yet another Internet share offering went through the roof because ... well, just because.<br><br>The Wired Index gained 14.65 points to close at 466.32, and the Dow Jones Industrial Average ended 130.80 higher at 9010.48. The Nasdaq rose 47.25 to 2001.58, and the S&P 500 was up 26.36 at 1176.50.<br><br>It didn't take much to once again unleash the bulls. Stocks took off from the start as the Labor Department reported that the economy generated some 267,000 jobs in November -- twice as many as the month before -- and that the jobless rate had dropped to 4.4 percent, matching the 28-year lows set in the spring.<br><br>\"We're looking at some pretty positive outlooks,\" said Derek Leckow, an analyst with Barrington Research. \"There doesn't seem to be anything out there to stop the bullish sentiment.\"<br><br>On Thursday, of course, there was some vague whispering about the Brazilian economy imploding, and Japan's economy barely registering a pulse. So, what if renewed fears of a global economic meltdown were sufficient to knock the Dow off kilter by almost 200 points Thursday? Let's live for the moment.<br><br>And the stock of the moment is online auctioneer uBid (UBID), which so keenly wants to be the next eBay it even has the same difficulty with spelling. It lost about US$3 million over the first nine months of the year, but it debuted with 1.6 million shares initially priced at $15 apiece. The stock closed up $32.06, or 214 percent, at $47.06. A day earlier, lest we forget, Ticketmaster Online-CitySearch (TMCS) almost tripled on its first trading appearance. The stock advanced Friday by a more sensible $2.81 to $43.06.<br><br>\"Everyone wants to own these companies,\" Leckow observed. \"The potential for sales on the Internet is enormous. Add to that the hype and the hysteria, and you see these stocks all going up.\"<br><br>Actually, one suspects that hype and hysteria are playing a slightly more active role here than any rational desire to buy into a growth industry. All things considered, run-of-the-mill retail investors would have be nuts to try and get in on this action.<br><br>Not that this would deter anyone from trying. Among the big guys, America Online (AOL) climbed $3.50 to $87.13, and Yahoo (YHOO) was $6.38 higher at $190.13. But Amazon.com (AMZN) slipped $1 to $188.50, and eBay (EBAY) was down $4.50 at $182.50.<br><br>A nice little soap opera playing out in the wings: WavePhore (WAVO) complained to the Securities and Exchange Commission and the Nasdaq exchange that commentator/Internet mogul/hedge-fund manager James Cramer deliberately drove down the company's stock with some trash talk on CNBC. WavePhore contends that Cramer referred to certain Internet outfits as \"Fraud-U-Net\" firms, and said that Fed chief Alan Greenspan \"doesn't like WavePhore going up.\"<br><br>WavePhore's stock, which had practically doubled on Tuesday after the company unveiled an online shopping service, took a tumble Thursday following the CNBC interview. However, it managed to jump back 38 cents to $8.31 on Friday. In his column on TheStreet.com, Cramer defended his position as being one of \"silliness versus no silliness.\" Silliness, it would appear, remains the operative word in any discussion of Net stocks.<br><br>Among not-so-silly stocks, Intel (INTC) advanced $6.81 to $116.31 after reiterating its forecast that fourth-quarter sales will rise by as much as 10 percent from the previous quarter. Compaq Computer (CPQ) was up $2.25 at $38.63 as Prudential Securities reiterated a \"strong buy\" rating for the company's shares and as Merrill Lynch noted speculation that the computer maker may spin off its AltaVista search engine. Sun Microsystems (SUNW) gained $2.25 to $75.19 after Morgan Stanley Dean Witter reiterated a \"strong buy\" rating for the stock. Dell Computer (DELL) rose $2.13 to $66, and Microsoft (MSFT) was up $5.13 at $127.25.<br><br>Business software maker J. D. Edwards (JDEC), meanwhile, plunged $7.13, or 21 percent, to $28 amid worries that the company's sales growth may slow in coming months. This is a pretty harsh conclusion in light of the firm reporting a 65-percent increase in quarterly net income to 34 cents a share, a penny more than expected by analysts.<br><br>Disney (DIS) advanced 50 cents to $31.38 after a major institutional shareholder, the College Retirement Equities Fund, dropped a resolution to rejigger the company's board so as to give it a greater say in operations. The fund, which owns almost 19 million Disney shares, was appeased by the appointment of two more outside directors.<br><br>Few things hearten investors like a good corporate belt-tightening. Johnson & Johnson (JNJ) rose $2.19 to $81.75 on news that the consumer-products giant will shutter 36 plants and hand more than 4,000 employees their walking papers. The company blamed slumping sales for the cutbacks. Remember those rising payroll numbers we mentioned earlier, the ones driving the market higher? Oh, never mind. Nobody likes a Gloomy Gus.<br><br>On second thought, let's take a look at Milton Bradley Wood Products, a division of toy titan Hasbro (HAS). For two decades now, this little outfit has cranked out 1 million Scrabble tiles each and every day. Now it's being closed down, and its 87 employees are getting the boot.<br><br>A deep-rooted affection for Scrabble notwithstanding, it sure seems that a whole lot of people are losing their jobs this holiday season. Investors may be shrugging their shoulders -- Hasbro was up 25 cents at $36.25 -- but one can't help but suspect that the US economy isn't as robust as many seem to think.<br><br>Just a thought.",
+			"category": "Business",
+			"publication_date": "2020-08-09",
+			"author": 1,
+			"created": "2020-08-09T01:06:52.000Z",
+			"updated": "2020-08-09T01:06:52.000Z"
+		}
+	},
+	{
+		"model": "wired_app.article",
+		"pk": 3,
+		"fields": {
+			"title": "Lorem Ipsum?",
+			"slug": "lorem_ipsum",
+			"headline": "Lorem Ipsum!",
+			"body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc bibendum lorem erat, sit amet accumsan metus interdum a. In mollis libero a fringilla ultricies. Pellentesque in est elit. Morbi in facilisis risus. In rhoncus, arcu id egestas euismod, sapien eros accumsan tellus, quis fringilla augue nibh eget ex. Sed elementum fermentum leo ac venenatis. Sed semper vehicula scelerisque. Curabitur vitae porta velit, a facilisis urna. Sed vel blandit quam.<br><br>Nam eget rhoncus libero, at dictum mauris. Vestibulum laoreet dolor ac turpis aliquet tristique. Cras pellentesque leo eget nisi lacinia egestas. Sed interdum aliquet leo, sit amet convallis urna molestie et. Suspendisse pharetra, elit eu posuere dignissim, neque nisl varius velit, vel porta risus nisl quis ante. Phasellus elit felis, euismod quis nunc non, porttitor laoreet metus. Cras quis ipsum tincidunt, efficitur mauris ut, tincidunt ligula. Proin et dictum velit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Etiam ac lacus mauris. Curabitur cursus, dolor vitae porttitor eleifend, odio felis elementum ante, ut facilisis ante enim sed massa. Praesent vitae dolor varius, bibendum ligula at, ultrices nisl. Vivamus volutpat lectus id elit sagittis, vitae congue mi sollicitudin. Quisque quis porttitor elit. In hac habitasse platea dictumst.<br><br>Nulla fringilla lacus massa, nec lobortis metus fringilla eu. Cras id augue elementum, semper risus at, lacinia mi. Curabitur consectetur urna vel posuere fermentum. Donec blandit, diam in vehicula tempor, mi sem ultrices leo, nec rutrum nisi quam nec erat. Fusce non leo ac tortor commodo finibus id quis risus. Duis tellus ex, porttitor sit amet sem at, posuere scelerisque ipsum. Nunc lacinia commodo sem, eget mattis est tristique nec.<br><br>Vestibulum vitae semper odio, nec faucibus lectus. Morbi ante metus, posuere non vehicula vel, malesuada ut mauris. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Suspendisse potenti. Nullam vitae volutpat augue. Mauris vehicula, elit at faucibus maximus, dui ante tempor ante, ac sollicitudin lorem quam non nisi. Nam sem lacus, consequat sed nibh vitae, tincidunt consectetur est. Vestibulum a nisl at dolor blandit vehicula. Donec quis semper nunc. Nulla facilisi. Mauris leo mi, venenatis sit amet nunc non, laoreet porttitor odio. Aenean feugiat lorem sem, vitae accumsan neque gravida at. Nam blandit augue sed elit gravida, at bibendum neque suscipit. Aliquam ornare nibh in orci tincidunt, eget dictum lorem commodo.<br><br>Aenean pulvinar mattis euismod. Aenean vel justo commodo, finibus velit quis, aliquam urna. In finibus diam dolor, gravida congue orci pharetra quis. Aenean tincidunt posuere lobortis. Vivamus pretium neque nec odio dignissim feugiat. In nisi nulla, laoreet id euismod aliquam, consequat eu sapien. Praesent sed lorem urna. Aliquam sem nisl, consectetur a massa sed, consectetur feugiat nisl. Vivamus urna nisl, commodo vitae odio eu, placerat vehicula orci. In hac habitasse platea dictumst. Suspendisse mauris libero, facilisis id sapien ac, euismod euismod tellus. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+			"category": "Culture",
+			"publication_date": "2018-08-09",
+			"author": 1,
+			"created": "2018-08-09T01:06:53.000Z",
+			"updated": "2018-08-09T01:06:53.000Z"
+		}
+	},
+	{
+		"model": "wired_app.article",
+		"pk": 4,
+		"fields": {
+			"title": "Awaiting China's Net Verdict",
+			"slug": "chinas_next_verdict",
+			"headline": "Chinese software businessman returned to prison Friday",
+			"body": "SHANGHAI, China -- With his defense attorney saying \"It doesn't look good for Lin Hai,\" the Chinese software businessman returned to prison Friday following the end of his subversion trial.<br>Lin was arrested and charged in March after supplying the email addresses for 30,000 Chinese to a dissident group in the United States that publishes the pro-democracy Web site VIP Reference. Lin's case is drawing tremendous interest from human-rights activists and Internet freedom advocates, who see it as an attempt by the ruling Communist Party to suppress individual freedom on the Net.<br><br>China routinely blocks access to sites deemed either subversive or pornographic.<br><br>\"I think he's going to be found guilty,\" said Lin's defense attorney, Wang Wenjiang, following the four-hour trial. The court could take as long as a week to hand down a verdict, Wang said.<br><br>The signs certainly weren't good. Lin's trial was held in a closed courtroom despite entreaties from the US Embassy in Beijing to \"fully respect international human rights standards.\"<br><br>The sudden disappearance of Lin's wife, Xu Hong, who was expected at the trial, was also taken as a sign that the Chinese government is playing hardball. It is feared that Xu was detained by police. A neighbor of Xu's, asked by a reporter whether residents had been warned by police not to talk, nodded.<br><br>Human Rights in China called for Lin's immediate release and said the government was in \"blatant violation of the right to freedom of expression.\"",
+			"category": "Politics",
+			"publication_date": "2018-08-10",
+			"author": 1,
+			"created": "2018-08-10T01:06:54.000Z",
+			"updated": "2018-08-10T01:06:54.000Z"
+		}
+	},
+	{
+		"model": "wired_app.comment",
+		"pk": 1,
+		"fields": {
+			"text": "One, two, three, four, I declare a flame war!",
+			"author": null,
+			"parent_post": 1,
+			"created": "2020-08-09T01:44:29.455Z",
+			"updated": "2020-08-09T01:44:29.455Z"
+		}
+	},
+	{
+		"model": "wired_app.comment",
+		"pk": 2,
+		"fields": {
+			"text": "Nice article.",
+			"author": 1,
+			"parent_post": 1,
+			"created": "2020-08-09T01:44:59.817Z",
+			"updated": "2020-08-09T01:44:59.817Z"
+		}
+	},
+	{
+		"model": "auth.user",
+		"pk": 1,
+		"fields": {
+			"password": "pbkdf2_sha256$216000$lLFHgJO0tCfY$64K0LbWSff118uG9H1du6jGM10aEpVIA9wLZpLzNk7g=",
+			"last_login": "2020-08-09T01:44:45.513Z",
+			"is_superuser": true,
+			"username": "user1",
+			"first_name": "Firsticious",
+			"last_name": "Lasterson",
+			"email": "user@example.com",
+			"is_staff": true,
+			"is_active": true,
+			"date_joined": "2020-08-09T01:05:32.834Z",
+			"groups": [],
+			"user_permissions": []
+		}
+	}
+]
