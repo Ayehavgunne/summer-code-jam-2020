@@ -1,34 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Wired {% block title %}{% endblock %}</title>
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-              integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-        {% block extra_heads %}{% endblock %}
-    </head>
-    <body>
-      {% if messages %}
-        {% for message in messages %}
-          <div class="alert alert-{{ message.tags }}">
-            {{ message }}
-          </div>
-        {% endfor %}
-      {% endif %}
-        {% include 'components/search.html' %}
-        {% include 'components/nav_header.html' %}
-        {% block content %}{% endblock %}
-    </body>
-{% block footer %}    
-    <footer>
-        <div>
-            <h6>Archives</h6>
-            <ul>
-            {% for obj in articles %}
-                <li><a href="{% url 'article-archive-year' obj.publication_date|date:"Y" %}">{{ obj.publication_date|date:"Y" }}</a></li>
-                {% endfor %}
-            </ul>
-        </div>
-    </footer>
-    {% endblock %}
+	<head>
+		<meta charset="UTF-8">
+		<title>Wired {% block title %}{% endblock %}</title>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+				integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		{% block extra_heads %}{% endblock %}
+	</head>
+	<body>
+		<h1>Wired News</h1>
+		{% if messages %}
+			{% for message in messages %}
+				<div class="alert alert-{{ message.tags }}">
+					{{ message }}
+				</div>
+			{% endfor %}
+		{% endif %}
+
+		{% include 'components/search.html' %}
+		{% include 'components/nav_header.html' %}
+
+		{% block content %}{% endblock %}
+
+		<footer>
+			<div>
+				<h6>Archives</h6>
+				<ul>
+					{% for obj in articles %}
+						<li>
+							<a href="{% url 'article-archive-year' obj.publication_date|date:"Y" %}">{{ obj.publication_date|date:"Y" }}</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</footer>
+	</body>
 </html>
