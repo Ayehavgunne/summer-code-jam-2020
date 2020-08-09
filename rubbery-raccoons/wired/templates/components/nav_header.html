@@ -1,8 +1,8 @@
-<p><a href="{% url 'homepage' %}">Home</a>
+<p><a href="{% url 'homepage' %}">Home</a></p>
 {% if request.user.is_authenticated %}
-<p><a href="{% url 'at_main' %}">Your Author Tools</a>
-<p><a href="{% url 'logout_view' %}">Logout</a>
+	<p><a href="{% url 'at_main' %}">Your Author Tools</a></p>
+	<p><a href="{% url 'logout_view' %}">Logout</a></p>
 {% else %}
-<p><a href="{% url 'login_view' %}">Login</a></p>
-<p><a href="{% url 'register' %}">Register</a></p>
+	<p><a href="{% url 'login_view' %}">Login</a></p>
+	<p><a href="{% url 'register' %}">Register</a></p>
 {% endif %}

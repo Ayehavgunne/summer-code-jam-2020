@@ -19,6 +19,7 @@ from django.urls import include, path
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("users/", include("users.urls")),
-    path("author-tools/", include("author_tools.urls")),
     path("", include("wired_app.urls")),
+    # isn't this already taken care of by the django admin page?
+    path("author-tools/", include("author_tools.urls")),
 ]

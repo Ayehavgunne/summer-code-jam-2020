@@ -1,19 +1,46 @@
 {% extends 'base.html' %}
 
 {% block title %}News{% endblock %}
+
 {% block extra_heads %}
-    {% load static %}
-    <link rel="stylesheet" href="{% static "/wired_app/homepage.css" %}">
+	{% load static %}
+	<link rel="stylesheet" href="{% static "/wired_app/homepage.css" %}">
 {% endblock %}
 
 {% block content %}
-    <h1>Articles</h1>
-    <ul>
-    {% for article in articles %}
-        <li><a href="{% url 'article-detail' article.slug %}">{{ article.publication_date|date }} - {{ article.title }} - {{ article.headline }}</a></li>
-        <p>{{ article.brief_body }}</p>
-        {% empty %}
-        <li>No articles yet.</li>
-    {% endfor %}
-    </ul>
+	<div>
+		<h5>Sections</h5>
+		<ul>
+			{% for category in categories %}
+				<li><a href="{% url 'category' category %}">{{ category }}</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div>
+	<h5>News</h5>
+		<ul>
+			{% for article in articles %}
+				<li>
+					<a href="{% url 'article-detail' article.slug %}">{{ article.title }}</a> - {{ article.publication_date|date }}
+					<h5>{{ article.headline }}</h5>
+					<p>{{ article.brief_body|safe }}</p>
+				</li>
+			{% empty %}
+				<li>No articles yet.</li>
+			{% endfor %}
+		</ul>
+	</div>
+{% endblock %}
+
+{% block footer %}
+	<div>
+		<h6>Archives</h6>
+		<ul>
+			{% for year in years %}
+				<li>
+					<a href="{% url 'article-archive-year' year %}">{{ year }}</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
 {% endblock %}

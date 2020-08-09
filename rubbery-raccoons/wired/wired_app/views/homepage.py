@@ -14,4 +14,12 @@ class HomepageView(ListView, ArchiveIndexView):
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         context["now"] = timezone.now()
+        context["years"] = set(
+            result["publication_date"].year
+            for result in Article.objects.order_by().values("publication_date").distinct().all()
+        )
+        context["categories"] = set(
+            result["category"]
+            for result in Article.objects.order_by().values("category").distinct().all()
+        )
         return context

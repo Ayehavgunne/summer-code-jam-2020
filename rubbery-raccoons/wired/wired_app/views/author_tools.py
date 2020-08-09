@@ -14,4 +14,7 @@ def author_compose(request):
 
 def author_edit(request, article_id):
     article = get_object_or_404(Article, pk=article_id)
-    return render(request, "wired_app/author_main_portal.html", {"question": question})
+    question = ""
+    return render(
+        request, "wired_app/author_main_portal.html", {"question": question, "article": article}
+    )

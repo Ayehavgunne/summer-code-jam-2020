@@ -9,6 +9,7 @@ class Article(models.Model):
     headline = models.TextField()
     body = models.TextField()
     publication_date = models.DateField()
+    category = models.CharField(max_length=25, default="Technology")
     author = models.ForeignKey(get_user_model(), on_delete=models.SET(None))
     created = models.DateTimeField(auto_now_add=True)
     updated = models.DateTimeField(auto_now=True)
@@ -17,15 +18,15 @@ class Article(models.Model):
         return f"Article({self.title=}, {self.author=}, {self.publication_date=})"
 
     def get_absolute_url(self):
-        return reverse('article_detail', kwargs={'slug': self.slug})
-    
+        return reverse("article_detail", kwargs={"slug": self.slug})
+
     def brief_body(self):
         if len(self.body) > 20:
-            short = ' '.join(self.body.split()[:20])
-            short += ' ...'
+            short = " ".join(self.body.split()[:20])
+            short += " ..."
         else:
             short = self.body
-        return short 
+        return short
 
 
 class Comment(models.Model):
